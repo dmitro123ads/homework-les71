@@ -1,4 +1,4 @@
-body {
+.1task-body {
     background-color: #f3dbca;
     
 }
@@ -61,7 +61,7 @@ body {
     border-radius: 4px;
 }
 
-button {
+.link-btn {
     width: 90%;
     border: #030101 2px solid;
     color: #000000;
@@ -75,13 +75,9 @@ button {
     transition-timing-function: linear;
 
 }
-button:hover{
+.link-btn:hover{
     background-color: #de6e0c;
     color: #11131d;
     box-shadow: #000000 0 0 10px;
     cursor: pointer;
-}
-
-.quote_cont{
-
 }
