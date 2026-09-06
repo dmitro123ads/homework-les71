@@ -1,0 +1,27 @@
+.hero{
+    padding: 52px;
+}
+.title{
+    font-size: 52px;
+}
+.hero-btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    transition-property:  background-color transform box-shadow;
+    transition-duration: 250ms;
+
+    
+}
+.hero-btn:hover {
+    background-color: rgb(16, 120, 255);
+    transform: translateY(-2px);
+    box-shadow: 1px 1px 5px black;
+}
+.hero-btn a{
+    color: black;
+    text-decoration: none;
+}
+.hero-btn:hover a{
+    color: white;
+}

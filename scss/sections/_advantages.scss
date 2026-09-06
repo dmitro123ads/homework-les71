@@ -1,0 +1,12 @@
+.advantages{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px;
+    gap: 50px;
+    text-align: center;
+}
+
+.advant-count{
+    margin-bottom: 20px;
+    font-size: 40px;
+}

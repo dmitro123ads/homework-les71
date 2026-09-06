@@ -6,10 +6,18 @@ nav ul{
     display: flex;
     gap: 50px;
     list-style: none;
-    margin-top: 4px;
+    margin-top: 20px;
+    margin-left:90ch;
+    width: 100%;
    
 }
 nav a{
      text-decoration: none;
      color: black;
+     transition-property: color, text-decoration;
+     transition-duration: 250ms;
+}
+nav a:hover{
+    color: blue;
+    text-decoration: underline;
 }
